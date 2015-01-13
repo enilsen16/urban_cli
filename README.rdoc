@@ -1,16 +1,9 @@
 = Urban
 
-* Home :: http://github.com/tmiller/urban
-* Bug Tracker :: http://github.com/tmiller/urban/issues
-
 == Description:
 
 Urban is a command line utility with an API to query definitions from Urban
 Dictionary.
-
-== BADGES
-
-{<img src="https://secure.travis-ci.org/tmiller/urban.png"/>}[http://travis-ci.org/tmiller/urban] {<img src="https://codeclimate.com/github/tmiller/urban.png" />}[https://codeclimate.com/github/tmiller/urban]
 
 == REQUIREMENTS
 
@@ -20,13 +13,13 @@ Dictionary.
 
 With Rubygems:
 
-    $ sudo gem install urban
+    $ gem install urban
 
 With git and local working copy
 
     $ git clone git://github.com/tmiller/urban.git
     $ cd urban
-    $ sudo rake install
+    $ rake install
 
 == CLI USAGE
 
