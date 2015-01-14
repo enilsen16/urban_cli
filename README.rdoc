@@ -1,5 +1,7 @@
 = Urban
 
+{<img src="https://travis-ci.org/enilsen16/urban_cli.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/enilsen16/urban_cli]
+
 == Description:
 
 Urban is a command line utility with an API to query definitions from Urban
