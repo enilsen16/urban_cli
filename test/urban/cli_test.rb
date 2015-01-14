@@ -132,7 +132,7 @@ class CLITest < Urban::Test
       missing_phrase_error = load_fixture "screens/missing_phrase_error.txt"
 
       dictionary.stub :search, empty_entry do
-        assert_program_output nothing, missing_phrase_error, "gubble"
+        assert_program_output nothing, missing_phrase_error, "shfjkasdf"
       end
     end
 
@@ -142,7 +142,7 @@ class CLITest < Urban::Test
       raise_socket_error = Proc.new { raise SocketError }
 
       dictionary.stub :search, raise_socket_error do
-        assert_program_output nothing, no_internet_error, "gubble"
+        assert_program_output nothing, no_internet_error, "shfjkasdf"
       end
     end
 

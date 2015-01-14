@@ -38,9 +38,9 @@ class DictionaryTest < Urban::Test
 
   def test_dictionary_returns_empty_for_missing_phrases
     response.stream = load_fixture 'missing.html'
-    web_service.expect(:search, response, ['gubble'])
+    web_service.expect(:search, response, ['shfjkasdf'])
 
-    assert_equal(empty_entry, dictionary.search('gubble'))
+    assert_equal(empty_entry, dictionary.search('shfjkasdf'))
     web_service.verify
   end
 

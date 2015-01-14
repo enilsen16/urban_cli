@@ -19,7 +19,7 @@ module Urban
       @web_service ||= Urban::Web.new
     end
 
-  private
+    private
 
     def process(response)
       document = Nokogiri::HTML(response.stream)
@@ -27,9 +27,9 @@ module Urban
         Entry.new(not_defined.content.strip, nil, nil)
       else
         Entry.new(
-          document.at_xpath('//td[@class="word"][1]').content.strip,
-          parse_definitions(document),
-          response.url
+        document.at_xpath('//td[@class="word"][1]').content.strip,
+        parse_definitions(document),
+        response.url
         )
       end
     end

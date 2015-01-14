@@ -14,7 +14,7 @@ class Urban::Test < Minitest::Test
   end
 
   def empty_entry
-    @empty_entry ||= Urban::Dictionary::Entry.new('gubble', nil, nil)
+    @empty_entry ||= Urban::Dictionary::Entry.new('shfjkasdf', nil, nil)
   end
 
   def test_entry
