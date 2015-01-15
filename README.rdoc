@@ -1,11 +1,12 @@
 = Urban
-
-{<img src="https://travis-ci.org/enilsen16/urban_cli.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/enilsen16/urban_cli]
-
 == Description:
 
 Urban is a command line utility with an API to query definitions from Urban
 Dictionary.
+
+== BADGES
+
+{<img src="https://travis-ci.org/enilsen16/urban_cli.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/enilsen16/urban_cli]
 
 == REQUIREMENTS
 
@@ -34,7 +35,7 @@ With git and local working copy
     $ urban -r
     $ urban --random
 
-=== 3. Print all definitons
+=== 3. Print all definitions
 
     $ urban -a cookie monster
     $ urban -ra
