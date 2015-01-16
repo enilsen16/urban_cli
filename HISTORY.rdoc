@@ -1,12 +1,12 @@
+=== 1.1.0
 * Major enhancements:
 
-  * Remove deperecated `--list` and `-l` flags.
-  * Remove official support for Ruby 1.8.6.
+  * Update dependencies
+  * Changes fixtures to new HTML layout
 
-* Bug fixes
+* Bug fixes:
 
-  * Undefined words now show a cleaner error. This was apparently not fixed
-    in the prior release.
+  * Fix undefined method `content' for nil:NilClass
 
 === 1.0.0
 
@@ -16,6 +16,8 @@
   * Deprecate `--list` flag.
   * Remove query from Urban::Web replace with random and search.
   * Add `url` flag to print the url of the definition.
+  * Remove deperecated `--list` and `-l` flags.
+  * Remove official support for Ruby 1.8.6.
 
 * Minor enhancements:
 
@@ -34,3 +36,5 @@
   * Undefined words now show a clean error.
   * No internet connection now shows a clean error.
   * Invalid options now show a clean error.
+  * Undefined words now show a cleaner error. This was apparently not fixed
+    in the prior release.

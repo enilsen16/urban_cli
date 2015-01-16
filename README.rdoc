@@ -1,12 +1,12 @@
-= Urban
+= Urban_CLI
 == Description:
 
-Urban is a command line utility with an API to query definitions from Urban
+Urban_CLI is a command line utility with an API to query definitions from Urban
 Dictionary.
 
 == BADGES
 
-{<img src="https://travis-ci.org/enilsen16/urban_cli.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/enilsen16/urban_cli]
+{<img src="https://travis-ci.org/enilsen16/urban_cli.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/enilsen16/urban_cli] {<img src="https://badge.fury.io/rb/urban_cli.svg" alt="Gem Version" />}[http://badge.fury.io/rb/urban_cli]
 
 == REQUIREMENTS
 
@@ -16,12 +16,12 @@ Dictionary.
 
 With Rubygems:
 
-    $ gem install urban
+    $ gem install urban_cli
 
 With git and local working copy
 
-    $ git clone git://github.com/tmiller/urban.git
-    $ cd urban
+    $ git clone git://github.com/enilsen16/urban_cli.git
+    $ cd urban_cli
     $ rake install
 
 == CLI USAGE
@@ -52,7 +52,7 @@ With git and local working copy
 
 == API USAGE
 
-    require 'urban'
+    require 'urban_cli'
 
     # Search for a word
     entry = Urban::Dictionary.search('impromtpu')
@@ -71,4 +71,4 @@ With git and local working copy
 
 ---
 
-Copyright (c) 2011 Thomas Miller. See LICENSE for details.
+Copyright (c) 2011-2014 Thomas Miller, Erik Nilsen. See LICENSE for details.
