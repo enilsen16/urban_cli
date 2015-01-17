@@ -52,7 +52,7 @@ With git and local working copy
 
 == API USAGE
 
-    require 'urban_cli'
+    require 'urban'
 
     # Search for a word
     entry = Urban::Dictionary.search('impromtpu')
@@ -71,4 +71,4 @@ With git and local working copy
 
 ---
 
-Copyright (c) 2011-2014 Thomas Miller, Erik Nilsen. See LICENSE for details.
+Copyright (c) 2011-2015 Thomas Miller, Erik Nilsen. See LICENSE for details.
